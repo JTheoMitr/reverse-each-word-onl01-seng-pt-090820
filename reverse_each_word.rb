@@ -1,4 +1,7 @@
-= 
+=begin
+
+method using EACH 
+
 def reverse_each_word(string)
   #takes in a string as an argument
   new_array = string.split(" ")
@@ -13,4 +16,5 @@ def reverse_each_word(string)
   return reverse_array.join(" ")
   #lets see the outcome
 end
-=
+=end
+
