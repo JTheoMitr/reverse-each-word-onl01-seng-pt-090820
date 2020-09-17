@@ -24,7 +24,7 @@ def reverse_each_word(string)
   #split it into an array
   reverse_array = []
   #create the new array to hold reversed outcomes
-  new_array.each do |word|
+  new_array.collect do |word|
     reverse_array << word.reverse
     #iterate through array, reverse each word, shovel into reverse array
   end
