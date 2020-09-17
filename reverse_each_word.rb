@@ -28,7 +28,5 @@ def reverse_each_word(string)
     reverse_array << word.reverse
     #iterate through array, reverse each word, shovel into reverse array
   end
-  puts reverse_array.join(" ")
-  return reverse_array.join(" ")
-  #lets see the outcome
+  reverse_array.join(" ")
 end
